@@ -24,6 +24,7 @@ The Result of Yet Another 50-hour Programming Challenge
 - Linux [Suggested] or Windows Operating System
 
 ## Instructions :
+- Use Responsibly
 > Set-Up
 - Open Terminal or Command Line [CMD]
 - Run :
@@ -45,8 +46,8 @@ $java Profile/src/Profile.java
 +#+        +#+    +#+ +#+    +#+ +#+            +#+     +#+        +#+        +#+    +#+    
 #+#        #+#    #+# #+#    #+# #+#            #+#     #+#        #+#        #+#    #+#     
 ###        ###    ###  ########  ###        ########### ########## ########## ###    ###     
-[::]False Identity Profile Generator[::]
-      [::]Created By : Chris Taylor[::]
+                        [::]False Identity Profile Generator | v.1[::]
+                              [::]Created By : Chris Taylor[::]
 
 [::]GitHub : https://github.com/CosmodiumCS/profiler[::]
 
@@ -71,3 +72,6 @@ $java Profile/src/Profile.java
 ## Disclaimer :
 - Colored Output is Not Displayed on Windows
   - Will Still Function Normally
+- All Displayed Output Is Randomized
+  - Meaning Emails, Address's, SSN's, etc. May Actually Exist
+  - Use Responsibly
