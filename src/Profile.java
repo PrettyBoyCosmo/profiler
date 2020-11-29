@@ -28,54 +28,54 @@ public class Profile {
 
 		// first names array
 		String[] first_name = {"Emma ", "Olivia ", "Ava ", "Isabella ", "Sophia ", "Charlotte ", "Mia ", "Amelia ", "Harper ", "Evelyn ", "Abigail ", "Emily ",
-												   "Elizabeth ", "Mila ", "Ella ", "Avery ", "Sofia ", "Camila ", "Aria ", "Scarlett ", "Victoria ", "Madison ", "Luna ", "Grace ",
-												   "Chloe ", "Liam ", "Noah ", "William ", "James ", "Oliver ", "Benjamin ", "Elijah ", "Lucas ", "Mason ", "Logan ", "Alexander ",
-												   "Ethan ", "Jacob ", "Michael ", "Daniel ", "Henry ", "Jackson ", "Sebastian ", "Aiden ", "Matthew ", "Samuel ", "David ",
-												   "Joseph ", "Carter ", "Owen ", "Penelope ", "Layla ", "Riley ", "Zoey ", "Nora ", "Lily ", "Eleanor ", "Hannah ", "Lillian ",
-												   "Addison ", "Aubrey ", "Ellie ", "Stella ", "Natalie ", "Zoe ", "Leah ", "Hazel ", "Violet ", "Aurora ", "Savannah ", "Audrey ",
-												   "Brooklyn ", "Bella ", "Claire ", "Skylar ", "Wyatt ", "John ", "Jack ", "Luke ", "Jayden ", "Dylan ", "Grayson ", "Levi ",
-												   "Isaac ", "Gabriel ", "Julian ", "Mateo ", "Anthony ", "Jaxon ", "Lincoln ", "Joshua ", "Christopher ", "Andrew ", "Theodore ",
-												   "Caleb ", "Ryan ", "Asher ", "Nathan ", "Thomas ", "Leo ", "Lucy ", "Paisley ", "Everly ", "Anna ", "Caroline ", "Nova ",
-												   "Genesis ", "Emilia ", "Kennedy ", "Samantha ", "Maya ", "Willow ", "Kinsley ", "Naomi ", "Aaliyah ", "Elena ", "Sarah ",
-												   "Ariana ", "Allison ", "Gabriella ", "Alice ", "Madelyn ", "Cora ", "Ruby ", "Eva ", "Isaiah ", "Charles ", "Josiah ",
-												   "Hudson ", "Christian ", "Hunter ", "Connor ", "Eli ", "Ezra ", "Aaron ", "Landon ", "Adrian ", "Jonathan ", "Nolan ",
-												   "Jeremiah ", "Easton ", "Elias ", "Colton ", "Cameron ", "Carson ", "Robert ", "Angel ", "Maverick ", "Nicholas ", "Dominic ",
-												   "Serenity ", "Autumn ", "Adeline ", "Hailey ", "Gianna ", "Valentina ", "Isla ", "Eliana ", "Quinn ", "Nevaeh ", "Ivy ", "Sadie ",
-												   "Piper ", "Lydia ", "Alexa ", "Josephine ", "Emery ", "Julia ", "Delilah ", "Arianna ", "Vivian ", "Kaylee ", "Sophie ",
-												   "Brielle ", "Madeline ", "Jaxson ", "Greyson ", "Adam ", "Ian ", "Austin ", "Santiago ", "Jordan ", "Cooper ", "Brayden ", "Roman ",
-												   "Evan ", "Ezekiel ", "Xavier ", "Jose ", "Jace ", "Jameson ", "Leonardo ", "Bryson ", "Axel ", "Everett ", "Parker ", "Kayden ", "Miles ",
-												   "Sawyer ", "Jason "};
+					   "Elizabeth ", "Mila ", "Ella ", "Avery ", "Sofia ", "Camila ", "Aria ", "Scarlett ", "Victoria ", "Madison ", "Luna ", "Grace ",
+					   "Chloe ", "Liam ", "Noah ", "William ", "James ", "Oliver ", "Benjamin ", "Elijah ", "Lucas ", "Mason ", "Logan ", "Alexander ",
+					   "Ethan ", "Jacob ", "Michael ", "Daniel ", "Henry ", "Jackson ", "Sebastian ", "Aiden ", "Matthew ", "Samuel ", "David ",
+					   "Joseph ", "Carter ", "Owen ", "Penelope ", "Layla ", "Riley ", "Zoey ", "Nora ", "Lily ", "Eleanor ", "Hannah ", "Lillian ",
+					   "Addison ", "Aubrey ", "Ellie ", "Stella ", "Natalie ", "Zoe ", "Leah ", "Hazel ", "Violet ", "Aurora ", "Savannah ", "Audrey ",
+					   "Brooklyn ", "Bella ", "Claire ", "Skylar ", "Wyatt ", "John ", "Jack ", "Luke ", "Jayden ", "Dylan ", "Grayson ", "Levi ",
+					   "Isaac ", "Gabriel ", "Julian ", "Mateo ", "Anthony ", "Jaxon ", "Lincoln ", "Joshua ", "Christopher ", "Andrew ", "Theodore ",
+					   "Caleb ", "Ryan ", "Asher ", "Nathan ", "Thomas ", "Leo ", "Lucy ", "Paisley ", "Everly ", "Anna ", "Caroline ", "Nova ",
+					   "Genesis ", "Emilia ", "Kennedy ", "Samantha ", "Maya ", "Willow ", "Kinsley ", "Naomi ", "Aaliyah ", "Elena ", "Sarah ",
+					   "Ariana ", "Allison ", "Gabriella ", "Alice ", "Madelyn ", "Cora ", "Ruby ", "Eva ", "Isaiah ", "Charles ", "Josiah ",
+					   "Hudson ", "Christian ", "Hunter ", "Connor ", "Eli ", "Ezra ", "Aaron ", "Landon ", "Adrian ", "Jonathan ", "Nolan ",
+					   "Jeremiah ", "Easton ", "Elias ", "Colton ", "Cameron ", "Carson ", "Robert ", "Angel ", "Maverick ", "Nicholas ", "Dominic ",
+					   "Serenity ", "Autumn ", "Adeline ", "Hailey ", "Gianna ", "Valentina ", "Isla ", "Eliana ", "Quinn ", "Nevaeh ", "Ivy ", "Sadie ",
+					   "Piper ", "Lydia ", "Alexa ", "Josephine ", "Emery ", "Julia ", "Delilah ", "Arianna ", "Vivian ", "Kaylee ", "Sophie ",
+					   "Brielle ", "Madeline ", "Jaxson ", "Greyson ", "Adam ", "Ian ", "Austin ", "Santiago ", "Jordan ", "Cooper ", "Brayden ", "Roman ",
+					   "Evan ", "Ezekiel ", "Xavier ", "Jose ", "Jace ", "Jameson ", "Leonardo ", "Bryson ", "Axel ", "Everett ", "Parker ", "Kayden ", "Miles ",
+					   "Sawyer ", "Jason "};
 
 		// middle initial
 		char middle_initial_input = (char) ('A' + r.nextInt(26));
 
 		// last names array
 		String[] last_name = {"Dover ", "Smith ", "Johnson ", "Williams ", "Jones ", "Brown ", "Davis ", "Miller ", "Wilson ", "Moore ", "Taylor ", "Anderson ", "Thomas ",
-												  "Jackson ", "White ", "Harris ", "Martin ", "Thompson ", "Garcia ", "Martinez ", "Robinson ", "Clark ", "Lewis ", "Lee ", "Walker ", "Hall ",
-											   	"Allen ", "Young ", "Hernandez ", "King ", "Wright ", "Lopez ", "Hill ", "Scott ", "Green ", "Adams ", "Baker ", "Gonzalez ", "Nelson ",
-											   	"Carter ", "Mitchell ", "Perez ", "Roberts ", "Turner ", "Phillips ", "Campbell ", "Parker ", "Evans ", "Edwards ", "Collins ", "Stewart ",
-											    "Sanchez ", "Morris ", "Rogers ", "Reed ", "Cook ", "Morgan ", "Bell ", "Murphy ", "Bailey ", "Rivera ", "Cooper ", "Richardson ", "Cox ",
-											    "Howard ", "Ward ", "Torres ", "Peterson ", "Gray ", "Ramirez ", "James ", "Watson ", "Brooks ", "Kelly ", "Sanders ", "Price ", "Bennett ",
-											    "Wood ", "Barnes ", "Ross ", "Henderson ", "Coleman ", "Jenkins ", "Perry ", "Powell ", "Long ", "Patterson ", "Hughes ", "Flores ", "Washington ",
-											    "Butler ", "Simmons ", "Foster ", "Gonzales ", "Bryant  ", "Alexander ", "Russell ", "Griffin ", "Diaz ", "Hayes "};
+						  "Jackson ", "White ", "Harris ", "Martin ", "Thompson ", "Garcia ", "Martinez ", "Robinson ", "Clark ", "Lewis ", "Lee ", "Walker ", "Hall ",
+						"Allen ", "Young ", "Hernandez ", "King ", "Wright ", "Lopez ", "Hill ", "Scott ", "Green ", "Adams ", "Baker ", "Gonzalez ", "Nelson ",
+						"Carter ", "Mitchell ", "Perez ", "Roberts ", "Turner ", "Phillips ", "Campbell ", "Parker ", "Evans ", "Edwards ", "Collins ", "Stewart ",
+					    "Sanchez ", "Morris ", "Rogers ", "Reed ", "Cook ", "Morgan ", "Bell ", "Murphy ", "Bailey ", "Rivera ", "Cooper ", "Richardson ", "Cox ",
+					    "Howard ", "Ward ", "Torres ", "Peterson ", "Gray ", "Ramirez ", "James ", "Watson ", "Brooks ", "Kelly ", "Sanders ", "Price ", "Bennett ",
+					    "Wood ", "Barnes ", "Ross ", "Henderson ", "Coleman ", "Jenkins ", "Perry ", "Powell ", "Long ", "Patterson ", "Hughes ", "Flores ", "Washington ",
+					    "Butler ", "Simmons ", "Foster ", "Gonzales ", "Bryant  ", "Alexander ", "Russell ", "Griffin ", "Diaz ", "Hayes "};
 
 		// month array
 		String[] month = {"Jabuary ", "Febuary ", "March ", "April ", "May ", "June ", "July ", "August ", "September ", "October ", "November ", "December "};
 
 		// race/ethinc background
 		String[] race = {"White American", "Black American", "American Indian", "Alaska Native", "Asian", "African American", "Native Hawaiian", "Pacific Islander", "Bi-Racial",
-										 "Mulatto", "Mestizo", "Itallian American", "French American", "Russian"};
+				 "Mulatto", "Mestizo", "Itallian American", "French American", "Russian"};
 
 		// street [name] array
 		String[] street_name = {"Second ", "Third ", "First ", "Fourth ", "Park ", "Fifth ", "Main ", "Sixth ", "Oak ", "Seventh ", "Pine ", "Maple ", "Cedar ", "Eighth ", "Elm ",
-														"View ", "Washington ", "Ninth ", "Lake ", "Hill ", "Church ", "Liberty ", "Walnut ", "Chestnut ", "Union ", "North ", "South ", "East ", "West ",
-														"River ", "Water ", "Center ", "Broad ", "Market ", "Cherry ", "Highland ", "Mill ", "Franklin ", "School ", "State ", "Front ", "Back ", "Side ",
-														"Prospect ", "Summer ", "Winter ", "Spring ", "Fall ", "Autumn ", "Jefferson ", "Jackson ", "Locust ", "Madison ", "Meadow ", "Spruce ", "Ridge ",
-														"Pearl ", "Dogwood ", "Lincoln ", "Pennsylvania ", "Pleasant ", "Adams ", "Academy ", "Green ", "Brown ", "Hickory ", "Virginia ", "Charles ",
-														"Elizabeth ", "Colonial ", "Monroe ", "Winding ", "Valley ", "Fairway ", "Delaware ", "Sunset ", "Vine ", "Woodland ", "Brookside ", "Hillside ",
-														"College ", "Division ", "Harrison ", "Heather ", "Laurel ", "New ", "Primrose ", "Railroad ", "Willow ", "Berkshire ", "Buckingham ", "Clinton ",
-														"George ", "Hillcrest ", "Hillside ", "Penn ", "Durham ", "Grant ", "Hamilton ", "Holly ", "King ", "Lafayette ", "Linden ", "Popular ", "Cambridge ",
-														"Clark ", "Essex ", "James ", "Magnolia ", "Myrtle ", "Route ", "Shady ", "Surrey ", "Warren ", "Willams ", "Williamson ", "Wood "};
+					"View ", "Washington ", "Ninth ", "Lake ", "Hill ", "Church ", "Liberty ", "Walnut ", "Chestnut ", "Union ", "North ", "South ", "East ", "West ",
+					"River ", "Water ", "Center ", "Broad ", "Market ", "Cherry ", "Highland ", "Mill ", "Franklin ", "School ", "State ", "Front ", "Back ", "Side ",
+					"Prospect ", "Summer ", "Winter ", "Spring ", "Fall ", "Autumn ", "Jefferson ", "Jackson ", "Locust ", "Madison ", "Meadow ", "Spruce ", "Ridge ",
+					"Pearl ", "Dogwood ", "Lincoln ", "Pennsylvania ", "Pleasant ", "Adams ", "Academy ", "Green ", "Brown ", "Hickory ", "Virginia ", "Charles ",
+					"Elizabeth ", "Colonial ", "Monroe ", "Winding ", "Valley ", "Fairway ", "Delaware ", "Sunset ", "Vine ", "Woodland ", "Brookside ", "Hillside ",
+					"College ", "Division ", "Harrison ", "Heather ", "Laurel ", "New ", "Primrose ", "Railroad ", "Willow ", "Berkshire ", "Buckingham ", "Clinton ",
+					"George ", "Hillcrest ", "Hillside ", "Penn ", "Durham ", "Grant ", "Hamilton ", "Holly ", "King ", "Lafayette ", "Linden ", "Popular ", "Cambridge ",
+					"Clark ", "Essex ", "James ", "Magnolia ", "Myrtle ", "Route ", "Shady ", "Surrey ", "Warren ", "Willams ", "Williamson ", "Wood "};
 
 		// street [abbreviated] array
 		String[] street_abbreviation = {"ALY, ", "AVE, ", "BCH, ", "BLVD, ", "CTR, ", "CIR, ", "COR, ", "XING, ", "DR, ", "EXPY, ", "FT, ", "GTWY, ", "GLN, ", "GRV, ", "HBR, ", "HWY, ",
@@ -83,15 +83,15 @@ public class Profile {
 
 		// states [abbreviated] array
 		String[] state = { "AL ", "AK ", "AZ ", "AR ", "CA ", "CO ", "CT ", "DE ", "FL ", "GA ", "HI ", "ID ", "IL ", "IN ", "IA ", "KS ", "KY ", "LA ", "ME ", "MD ", "MA ", "MI ", "MN ",
-										   "MS ", "MO ", "MT ", "NE ", "NV ", "NH ", "NJ ", "NM ", "NY ", "NC ", "ND ", "OH ", "OK ", "OR ", "PA ", "RI ", "SC ", "SD ", "TN ", "TX ", "UT ", "VT ", "VA ",
-										   "WA ", "WV ", "WI ", "WY ", "DC "};
+				   "MS ", "MO ", "MT ", "NE ", "NV ", "NH ", "NJ ", "NM ", "NY ", "NC ", "ND ", "OH ", "OK ", "OR ", "PA ", "RI ", "SC ", "SD ", "TN ", "TX ", "UT ", "VT ", "VA ",
+				   "WA ", "WV ", "WI ", "WY ", "DC "};
 
 		// city name array
 		String[] city = {"Washington ", "Springfield ", "Franklin ", "Greenville ", "Bristol ", "Clinton ", "Fairview ", "Salem ", "Madison ", "Georgetown ", "Alexandria", "Maplewood ",
-										 "Cedaroak ", "Liberty ", "Union ", "Highland ", "Franklin ", "Prospect ", "Jefferson ", "Jackson ", "Locust ", "Madison ", "Meadow ", "Spruce ", "Dogwood ",
-										 "Lincoln ", "Adams ", "Hickory ", "Charles ", "Elizabeth ", "Colonial ", "Monroe ", "Winding ", "Valley ", "Fairway ", "Vineyard ", "Woodland ", "Brookside ",
-										 "Hillside ", "Harrison ", "Heather ", "Primrose ", "Berkshire ", "Buckingham ", "Clinton ", "George ", "Hillcrest ", "Hillside ", "Penn ", "Durham ", "Hamilton ",
-										 "Holly ", "Lafayette ", "Linden ", "Cambridge ", "Clark ", "Jameston ", "Magnolia ", "Surrey ", "Warren ", "Willams ", "Williamson "};
+				 "Cedaroak ", "Liberty ", "Union ", "Highland ", "Franklin ", "Prospect ", "Jefferson ", "Jackson ", "Locust ", "Madison ", "Meadow ", "Spruce ", "Dogwood ",
+				 "Lincoln ", "Adams ", "Hickory ", "Charles ", "Elizabeth ", "Colonial ", "Monroe ", "Winding ", "Valley ", "Fairway ", "Vineyard ", "Woodland ", "Brookside ",
+				 "Hillside ", "Harrison ", "Heather ", "Primrose ", "Berkshire ", "Buckingham ", "Clinton ", "George ", "Hillcrest ", "Hillside ", "Penn ", "Durham ", "Hamilton ",
+				 "Holly ", "Lafayette ", "Linden ", "Cambridge ", "Clark ", "Jameston ", "Magnolia ", "Surrey ", "Warren ", "Willams ", "Williamson "};
 
 		// email domain array
 		String[] email = {"@gmail.com", "@yahoo.com", "@me.com", "@microsoft.com", "@icloud.com", "@godaddy.org", "@outlook.com", "@hotmail.com", "@msn.com", "@aol.com"};
@@ -120,7 +120,7 @@ public class Profile {
 				int profile_number = s.nextInt();
 
 				// determines whether or not the output will be written to a file
-				System.out.print(term_host+INPUT_STATUS_COLOR+"Would You like To Output This To Be Written to \""+output_file+"\"? [y/n]: "+RESET);
+				System.out.print(term_host+INPUT_STATUS_COLOR+"Would You like To Output The Profiles To \""+output_file+"\"? [y/n]: "+RESET);
 				String write_file = s.next();
 
 				// notifies user of progress
@@ -145,9 +145,9 @@ public class Profile {
 				// exception
 				else {
 					System.out.println(EXCEPTION_STATUS_COLOR+"\n[!!] Input Not Recognized, Try Again With "+RESET+SOURCE_TITLE_COLOR+
-													  "\"y\""+RESET+EXCEPTION_STATUS_COLOR+" for "+RESET+SOURCE_TITLE_COLOR+"\"yes\""+RESET+
-													  EXCEPTION_STATUS_COLOR+" or "+RESET+SOURCE_TITLE_COLOR+"\"n\""+RESET+EXCEPTION_STATUS_COLOR+
-													  " for "+RESET+SOURCE_TITLE_COLOR+"\"no\"\n"+RESET);
+										  "\"y\""+RESET+EXCEPTION_STATUS_COLOR+" for "+RESET+SOURCE_TITLE_COLOR+"\"yes\""+RESET+
+										  EXCEPTION_STATUS_COLOR+" or "+RESET+SOURCE_TITLE_COLOR+"\"n\""+RESET+EXCEPTION_STATUS_COLOR+
+										  " for "+RESET+SOURCE_TITLE_COLOR+"\"no\"\n"+RESET);
 					break;
 				}
 				// creates colored variable titles if os allows for it
@@ -198,7 +198,7 @@ public class Profile {
 
 					// writes output to file
 					if (write_to_file == true) {
-						System.out.println(writeFile(output_file, profiles, iterable));
+						System.out.println(writeFile(output_file, profiles, iterable)+"\n");
 					}
 
 					// terminal output
@@ -219,7 +219,7 @@ public class Profile {
 						System.out.print(location);
 
 						// outputs favorite color, possible security question
-						System.out.print(color_output);
+						System.out.print(color_output+"\n");
 					}
 				}
 				break;
@@ -227,7 +227,7 @@ public class Profile {
 
 			 // exception
 			catch (InputMismatchException e){
-				System.out.println(EXCEPTION_STATUS_COLOR+"[!!] Input Not Recognized, Enter a Number"+RESET+CONFIRMATION_STATUS_COLOR+"\n[+] i.e "+RESET+SOURCE_TITLE_COLOR+"\"23\""+RESET+"\n");
+				System.out.println(EXCEPTION_STATUS_COLOR+"\n[!!] Input Not Recognized, Enter a Number"+RESET+CONFIRMATION_STATUS_COLOR+"\n[+] i.e "+RESET+SOURCE_TITLE_COLOR+"\"23\""+RESET+"\n");
 				break;
 			}
 
@@ -256,13 +256,13 @@ public class Profile {
 		public static final String OS = System.getProperty("os.name");
 
 		// colored variables
-    public static final String RESET = colorDetect("\033[0m", OS);  // Text Reset
-    public static final String SOURCE_TITLE_COLOR = colorDetect("\033[0;33m", OS);  // YELLOW
-    public static final String INPUT_STATUS_COLOR = colorDetect("\033[0;37m", OS);   // WHITE
-    public static final String EXCEPTION_STATUS_COLOR = colorDetect("\033[0;31m", OS);// RED
-    public static final String CONFIRMATION_STATUS_COLOR = colorDetect("\033[0;36m", OS);    // CYAN
-    public static final String HEADER_COLOR = colorDetect("\033[0;35m", OS);  // PURPLE
-    public static final String SUB_BANNER_COLOR = colorDetect("\033[0;32m", OS);   // GREEN
+    public static final String RESET = colorDetect("\033[0m", OS); // text reset
+    public static final String SOURCE_TITLE_COLOR = colorDetect("\033[0;33m", OS); // yellow
+    public static final String INPUT_STATUS_COLOR = colorDetect("\033[0;37m", OS); // white
+    public static final String EXCEPTION_STATUS_COLOR = colorDetect("\033[0;31m", OS); // red
+    public static final String CONFIRMATION_STATUS_COLOR = colorDetect("\033[0;36m", OS); // cyan
+    public static final String HEADER_COLOR = colorDetect("\033[0;35m", OS); // purple
+    public static final String SUB_BANNER_COLOR = colorDetect("\033[0;32m", OS); // green
 
 	// gets random item from array
 	public static String randomItem(String[] array) {
@@ -275,19 +275,19 @@ public class Profile {
 	public static String bannerGenerator() {
 		// banners
 		String stargazing_font = "      :::::::::  :::::::::   ::::::::  :::::::::: ::::::::::: :::        :::::::::: ::::::::: \r\n" +
-											 			 "     :+:    :+: :+:    :+: :+:    :+: :+:            :+:     :+:        :+:        :+:    :+: \r\n" +
-														 "    +:+    +:+ +:+    +:+ +:+    +:+ +:+            +:+     +:+        +:+        +:+    +:+  \r\n" +
-													 	 "   +#++:++#+  +#++:++#:  +#+    +:+ :#::+::#       +#+     +#+        +#++:++#   +#++:++#:    \r\n" +
-														 "  +#+        +#+    +#+ +#+    +#+ +#+            +#+     +#+        +#+        +#+    +#+    \r\n" +
-														 " #+#        #+#    #+# #+#    #+# #+#            #+#     #+#        #+#        #+#    #+#     \r\n" +
-														 "###        ###    ###  ########  ###        ########### ########## ########## ###    ###     ";
+					 "     :+:    :+: :+:    :+: :+:    :+: :+:            :+:     :+:        :+:        :+:    :+: \r\n" +
+					 "    +:+    +:+ +:+    +:+ +:+    +:+ +:+            +:+     +:+        +:+        +:+    +:+  \r\n" +
+					 "   +#++:++#+  +#++:++#:  +#+    +:+ :#::+::#       +#+     +#+        +#++:++#   +#++:++#:    \r\n" +
+					 "  +#+        +#+    +#+ +#+    +#+ +#+            +#+     +#+        +#+        +#+    +#+    \r\n" +
+					 " #+#        #+#    #+# #+#    #+# #+#            #+#     #+#        #+#        #+#    #+#     \r\n" +
+					 "###        ###    ###  ########  ###        ########### ########## ########## ###    ###     ";
 
 		String graffiti_font = "__________                _____.__.__                \r\n" +
-							         	   "\\______   \\_______  _____/ ____\\__|  |   ___________ \r\n" +
-							         	   " |     ___/\\_  __ \\/  _ \\   __\\|  |  | _/ __ \\_  __ \\\r\n" +
-							         	   " |    |     |  | \\(  <_> )  |  |  |  |_\\  ___/|  | \\/\r\n" +
-							         	   " |____|     |__|   \\____/|__|  |__|____/\\___  >__|   \r\n" +
-							         	   "                                            \\/ ";
+				       "\\______   \\_______  _____/ ____\\__|  |   ___________ \r\n" +
+				       " |     ___/\\_  __ \\/  _ \\   __\\|  |  | _/ __ \\_  __ \\\r\n" +
+				       " |    |     |  | \\(  <_> )  |  |  |  |_\\  ___/|  | \\/\r\n" +
+				       " |____|     |__|   \\____/|__|  |__|____/\\___  >__|   \r\n" +
+			       	       "                                            \\/ ";
 
 		// gets and returns random banner
 		String[] font_options = {stargazing_font, graffiti_font};
@@ -316,6 +316,7 @@ public class Profile {
 		// exception
 		catch (IOException e) {
 		      e.printStackTrace();
+
 		      return EXCEPTION_STATUS_COLOR+"\n[!!] Error Creating File"+RESET;
 		    }
 	}
@@ -380,10 +381,10 @@ public class Profile {
 
 		// return output
 		String contact = String.format("%s%s[+]----------%s%sEMAIL%s%s : %s%s%s%s\n%s[+]-------%s%sPASSWORD%s%s : %s%s%s%s\n%s[+]----------%s%sPHONE%s%s : %s%sXXX-XXX-%d%s\n%s[+]------------%s%sSSN%s%s : %s%s%d-%d-XXXX%s",
-																	 fullname, symbol_color, reset_text, title_color, reset_text, symbol_color, reset_text, data_color, user_email, reset_text,
-																	 symbol_color, reset_text, title_color, reset_text, symbol_color, reset_text, data_color, password, reset_text,
-																	 symbol_color, reset_text, title_color, reset_text, symbol_color, reset_text, data_color, phone_number, reset_text,
-																	 symbol_color, reset_text, title_color, reset_text, symbol_color, reset_text, data_color, ssn1, ssn2, reset_text);
+						 fullname, symbol_color, reset_text, title_color, reset_text, symbol_color, reset_text, data_color, user_email, reset_text,
+						 symbol_color, reset_text, title_color, reset_text, symbol_color, reset_text, data_color, password, reset_text,
+						 symbol_color, reset_text, title_color, reset_text, symbol_color, reset_text, data_color, phone_number, reset_text,
+						 symbol_color, reset_text, title_color, reset_text, symbol_color, reset_text, data_color, ssn1, ssn2, reset_text);
 
 		return contact;
 	}
@@ -409,8 +410,8 @@ public class Profile {
 
 		// return output
 		String dob = String.format("\n%s[+]------------%s%sDOB%s%s : %s%s%s%d, %s%s\n%s[+]------------%s%sAGE%s%s : %s%s%d Years of Age%s",
-															 symbol_color, reset_text, title_color, reset_text, symbol_color, reset_text, data_color, birth_month, birth_day, birth_year, reset_text,
-															 symbol_color, reset_text, title_color, reset_text, symbol_color, reset_text, data_color, age, reset_text);
+						 symbol_color, reset_text, title_color, reset_text, symbol_color, reset_text, data_color, birth_month, birth_day, birth_year, reset_text,
+						 symbol_color, reset_text, title_color, reset_text, symbol_color, reset_text, data_color, age, reset_text);
 
 		return dob;
 	}
