@@ -41,32 +41,34 @@ $java Profile/src/Profile.java
 ```bash
       :::::::::  :::::::::   ::::::::  :::::::::: ::::::::::: :::        :::::::::: :::::::::
      :+:    :+: :+:    :+: :+:    :+: :+:            :+:     :+:        :+:        :+:    :+:
-    +:+    +:+ +:+    +:+ +:+    +:+ +:+            +:+     +:+        +:+        +:+    +:+
+    +:+    +:+ +:+    +:+ +:+    +:+ +:+            +:+     +:+        +:+        +:+    +:+  
    +#++:++#+  +#++:++#:  +#+    +:+ :#::+::#       +#+     +#+        +#++:++#   +#++:++#:    
   +#+        +#+    +#+ +#+    +#+ +#+            +#+     +#+        +#+        +#+    +#+    
  #+#        #+#    #+# #+#    #+# #+#            #+#     #+#        #+#        #+#    #+#     
-###        ###    ###  ########  ###        ########### ########## ########## ###    ###    
-                        [::]False Identity Profile Generator | v.1[::]
-                              [::]Created By : Chris Taylor[::]
+###        ###    ###  ########  ###        ########### ########## ########## ###    ###     
+			[::]False Identity Profile Generator | v.1[::]
+			       [::]Created By : Chris Taylor[::]
 
 [::]GitHub : https://github.com/CosmodiumCS/profiler[::]
 
 [~] root@profiler $ How Many Profiles Do You Wish To Generate? : 1
 
-[~] root@profiler $ Would You like To Output This To Be Written To "profiles.txt"? [y/n]: n
+[~] root@profiler $ Would You like To Output The Profiles To "profiles.txt"? [y/n]: n
 
-[+] Profile-1
-==========
-[+]-----------NAME : Miles Q. Price
-[+]----------EMAIL : milesprice@gmail.com
-[+]-------PASSWORD : Price706
-[+]----------PHONE : XXX-XXX-6202
-[+]------------SSN : 728-39-XXXX
-[+]-----------RACE : Alaska Native
-[+]------------DOB : March 1, 1975
-[+]------------AGE : 45 Years of Age
-[+]-------LOCATION : 5884 Brown PARK, Harrison WI 51968
-[+]-FAVORITE-COLOR : Black
+[*] Generating Profiles...
+
+[+] Profile-1:
+==============
+[+]-----------NAME : Ellie S. Torres
+[+]----------EMAIL : ellietorres@gmail.com
+[+]-------PASSWORD : Ellie335
+[+]----------PHONE : XXX-XXX-1103
+[+]------------SSN : 335-91-XXXX
+[+]-----------RACE : African American
+[+]------------DOB : Febuary 23, 2006
+[+]------------AGE : 14 Years of Age
+[+]-------LOCATION : 9888 Mill HWY, Madison KY 33038
+[+]-FAVORITE-COLOR : Purple
 ```
 
 ## Disclaimer :
