@@ -29,13 +29,13 @@ The Result of Yet Another 50-hour Programming Challenge
 - Open Terminal or Command Line [CMD]
 - Run :
 ```bash
-$javac Profile/src/Profile.java
+$javac Profiler/src/Profile.java
 ```
 
 > Run Profiler
 - Run :
 ```bash
-$java Profile/src/Profile.java
+$java Profiler/src/Profile.java
 ```
 - If Exception Occurs : Run in IDE/Text Editor
 ```bash
