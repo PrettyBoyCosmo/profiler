@@ -60,7 +60,7 @@ public class Profile {
 					    "Butler ", "Simmons ", "Foster ", "Gonzales ", "Bryant  ", "Alexander ", "Russell ", "Griffin ", "Diaz ", "Hayes "};
 
 		// month array
-		String[] month = {"Jabuary ", "Febuary ", "March ", "April ", "May ", "June ", "July ", "August ", "September ", "October ", "November ", "December "};
+		String[] month = {"January ", "Febuary ", "March ", "April ", "May ", "June ", "July ", "August ", "September ", "October ", "November ", "December "};
 
 		// race/ethinc background
 		String[] race = {"White American", "Black American", "American Indian", "Alaska Native", "Asian", "African American", "Native Hawaiian", "Pacific Islander", "Bi-Racial",
